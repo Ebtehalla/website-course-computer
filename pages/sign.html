@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;700&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="../style/adwa.css">
+  <script src="../script/adwaa.js"></script>
+
+<title> حسابي | حساب جديد </title>
+</head>
+
+<body onload="startTime()">
+
+
+  <div class="header">
+  <span><a  href="../index.html">
+  <img src="../image/logo.png" alt="the website icon"
+  width="100" height="100" >
+  </a>
+  <br>
+        أضواء المعرفة
+  </span>
+  </div>
+
+  <div class="navbar">
+  <a href="../index.html" target="_blank">الرئيسية</a>
+
+  <div class="dropdown">
+    <button class="dropbtn">الأقسام</button>
+    <div class="dropdown-content">
+      <a href="../web/web.html" target="_blank"> الويب </a>
+      <a href="../datas/ds.html" target="_blank"> علم البيانات </a>
+      <a href="../office/office.html" target="_blank"> الأوفيس</a>
+          <a href="../program/programing.html" target="_blank"> البرمجة</a>
+    </div>
+  </div>
+
+  <a href="../pages/logg.html" target="_blank">حسابي</a>
+  <a href="../pages/who.html" target="_blank">من نحن </a>
+  <div class="time" >
+      <div  id="divTime"></div>
+  </div>
+
+  </div>
+
+  <div class="rightCSS li"><div>
+    يقدم موقعنا أضواء المعرفة سهولة الوصول إلى برامج تدريبية إلكترونية في مختلف مجالات الحاسب الآلي بمحتوى تدريبي مميز وغني بالمعارف والمهارات في مجال الحاسب
+  </div></div>
+
+
+<div class="body">
+<form action="#" style="border:1px solid #ccc">
+  <div class="container">
+    <h1>إنشاء حساب جديد</h1>
+    <p>نرجو إدخال بياناتك الصحيحة لإنشاء الحساب</p>
+    <hr>
+    <label for="uname"><b>اسم المستخدم</b></label>
+    <input type="text" id="uname" name="uname" required>
+
+
+    <label for="psw"><b>كلمة المرور</b></label>
+    <input type="password" id="psw" name="psw" required>
+
+    <label for="psw-repeat"><b>أعِد ادخال كلمة المرور</b></label>
+    <input type="password"   id="psw-repeat" name="psw-repeat" required>
+
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> تذكرني
+    </label>
+
+    <p>بالنقر على التسجيل فأنت توافق على   <a href="#" style="color:dodgerblue">شروط الخدمة و سياسة الخصوصية</a>.</p>
+
+    <div class="clearfix">
+      <button type="button" class="cancelbtn">إلغاء</button>
+      <button type="submit" class="signupbtn">التسجيل</button>
+    </div></div> <br><br>
+    </form>
+  </div>
+
+  <footer class="footer">
+     <ul class="footer__nav">
+       <li class="nav__item nav__item--extra">
+         <h2 class="nav__title">أخبر صديقك عن موقعنا </h2>
+         <table>
+               <tr>
+                 <td><form name="eMailer" style="border-style:none;">
+             <input type="text" name="email" value="اكتب البريد الالكتروني"
+              onFocus="this.value=''"
+              onMouseOver="window.status='Enter email address here and tell a friend about this site...'; return true"
+               onMouseOut="window.status='';return true">
+               <input type="button" value="ارســـال"
+                onMouseOver="window.status='Click to send an email (with this page address) to a friend! Enter email address above...';
+                 return true"
+                 onMouseOut="window.status='';return true" onClick="mailThisUrl();">
+               </form></td></tr></table> </li>
+       <li class="nav__item">
+         <h2 class="nav__title">تواصل معنا</h2>
+         <ul class="nav__ul">
+           <li>
+        <a class="footer__btn" href="mailto:edhad.almarefah@gmail.com">Email</a>
+           </li>
+         </ul>
+         </li>
+       <li class="nav__item nav__item--extra">
+         <h2  class="nav__title">من نحن</h2>
+
+           <ul class="nav__ul">
+           <li>
+             <a  class="footer__btn" href="../pages/who.html">عن موقعنا</a>
+           </li>
+           </ul>
+       </li>
+     </ul>
+    </footer>
+
+ </body>
+ </html>

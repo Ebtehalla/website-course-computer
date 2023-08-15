@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;700&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="../style/adwa.css">
+  <script src="../script/adwaa.js"></script>
+<title> تعلم بناء صفحات الويب بHTML </title>
+</head>
+
+<body onload="startTime()">
+
+
+  <div class="header">
+  <span><a  href="../index.html">
+  <img src="../image/logo.png" alt="the website icon"
+  width="100" height="100" >
+  </a>
+  <br>
+        أضواء المعرفة
+  </span>
+  </div>
+
+<div class="navbar">
+  <a href="adwaa.html" target="_blank">الرئيسية</a>
+
+  <div class="dropdown">
+    <button class="dropbtn">الأقسام</button>
+    <div class="dropdown-content">
+      <a href="../web/web.html" target="_blank"> الويب </a>
+      <a href="../datas/ds.html" target="_blank"> علم البيانات </a>
+      <a href="../office/office.html" target="_blank"> الأوفيس</a>
+          <a href="../program/programing.html" target="_blank"> البرمجة</a>
+    </div>
+  </div>
+
+  <a href="../pages/logg.html" target="_blank">حسابي</a>
+  <a href="../pages/who.html" target="_blank">من نحن </a>
+  <div class="time" >
+      <div  id="divTime"></div>
+  </div>
+</div>
+
+
+
+<div class="onea">
+	<h1 class="frist">تعلم بناء صفحات الويب ب HTML</h1>
+
+	<div>
+	<h2>نبذة تعريفية :</h2>
+	<p>لغة html (Hyper Text Markup Language) هي اللغة الاساسية لتصميم مواقع الانترنت وهي لغة البداية لأي مصمم او مطور ويب.
+إنها اللغة المستخدمة لإنشاء صفحات الإنترنت. وهي ليست لغة برمجة بالمعنى والشكل المتعارف عليه للغات البرمجة الأخرى كلغة C . فهي مثلاً لا تحتوي على جمل التحكم والدوران، وعند الحاجة لاستخدام هذه الجمل يجب تضمين شيفرات من لغات أخرى كـ Java, JavaScript, CGI . كذلك فهي لا تحتاج إلى مترجم خاص. وهي غير مرتبطة بنظام تشغيل معين، لأنه يتم تفسيرها وتنفيذ تعليماتها مباشرة من قبل متصفح الانترنت وبغض النظر عن النظام المستخدم. لذلك فهي لغة بسيطة جداً، وسهلة الفهم والتعلم ولا تحتاج لمعرفة مسبقة بلغات البرمجة والهيكلية المستخدمة فيها. بل ربما كل ما تحتاجه هو القليل من التفكير المنطقي وترتيب الأفكار.
+</p>
+	<h2> الهدف العام من الدورة : </h2>
+	<p>إتقان لغة html</p>
+	<h2>الفئة المستهدفة :</h2>
+	<ul>
+	<li>الطلاب.</li>
+	<li>الموظفون.</li>
+	<li>الباحثون عن العمل.</li>
+	<li>مستخدمو أجهزة الحاسب الآلي.</li>
+	</ul>
+	<h2>المستوى :</h2>
+	<p>مبتدئ</p>
+	<h2>المتطلبات السابقة:</h2>
+	<p>لا يوجد متطلب سابق</p>
+	<h2>شهادة اجتياز الدورة :</h2>
+	<p>عند الانتهاء من الدورة ستحصل على الشهادة</p>
+	</div>
+
+  <button class="button2" onclick="window.location.href='https://www.youtube.com/watch?v=PYjyg0LNTfE&list=PLDoPjvoNmBAwClZ1PDcjWilxp9YERUbNt'">الدخول إلى الدورة </button>
+  <button class="button2" onclick="window.print()">إطبع هذه الصفحة</button>
+
+</div>
+
+
+  <footer class="footer">
+     <ul class="footer__nav">
+       <li class="nav__item nav__item--extra">
+         <h2 class="nav__title">أخبر صديقك عن موقعنا </h2>
+         <table>
+               <tr>
+                 <td><form name="eMailer" style="border-style:none;">
+             <input type="text" name="email" value="اكتب البريد الالكتروني"
+              onFocus="this.value=''"
+              onMouseOver="window.status='Enter email address here and tell a friend about this site...'; return true"
+               onMouseOut="window.status='';return true">
+               <input type="button" value="ارســـال"
+                onMouseOver="window.status='Click to send an email (with this page address) to a friend! Enter email address above...';
+                 return true"
+                 onMouseOut="window.status='';return true" onClick="mailThisUrl();">
+               </form></td></tr></table> </li>
+       <li class="nav__item">
+         <h2 class="nav__title">تواصل معنا</h2>
+         <ul class="nav__ul">
+           <li>
+        <a class="footer__btn" href="mailto:edhad.almarefah@gmail.com">Email</a>
+           </li>
+         </ul></li>
+       <li class="nav__item nav__item--extra">
+         <h2  class="nav__title">من نحن</h2>
+
+           <ul class="nav__ul">
+           <li>
+             <a  class="footer__btn" href="../pages/who.html">عن موقعنا</a>
+           </li>
+           </ul>
+
+     </li></ul>
+    </footer>
+
+	</body>
+	</html>

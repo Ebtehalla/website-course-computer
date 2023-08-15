@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;700&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style/adwa.css">
+    <script src="script/adwaa.js"></script>
+    <title> أضواء المعرفة </title>
+
+
+</head>
+
+
+<body onload="startTime()" >
+    <div class="header">
+        <span>
+        <a href="index.html">
+        <img src="image/logo.png" alt="the website icon"
+   width="100" height="100"></a> <br>
+            أضواء المعرفة
+        </span></div>
+
+    <div class="navbar">
+        <a href="index.html" target="_blank">الرئيسية</a>
+
+        <div class="dropdown">
+            <button class="dropbtn">الأقسام</button>
+            <div class="dropdown-content">
+                <a href="web/web.html" target="_blank"> الويب </a>
+                <a href="datas/ds.html" target="_blank"> علم البيانات </a>
+                <a href="office/office.html" target="_blank"> الأوفيس</a>
+                <a href="program/programing.html" target="_blank"> البرمجة</a>
+            </div>  </div>
+
+        <a href="pages/logg.html" target="_blank">حسابي</a>
+        <a href="pages/who.html" target="_blank">من نحن </a>
+        <div class="time" >
+        <div  id="divTime"></div>
+        </div></div>
+
+<div class="rightCSS li"><div>
+  يقدم موقعنا أضواء المعرفة سهولة الوصول إلى برامج تدريبية إلكترونية في مختلف مجالات الحاسب الآلي بمحتوى تدريبي مميز وغني بالمعارف والمهارات في مجال الحاسب
+</div></div>
+
+
+    <!-- images in this page from https://www.pexels.com/photo/crop-female-entrepreneur-sitting-sitting-at-desk-and-working-on-computer-5325054/
+    https://www.pexels.com/photo/person-holding-turned-on-silver-laptop-computer-261662/
+    https://www.pexels.com/photo/black-farmed-eyeglasses-in-front-of-laptop-computer-577585/
+    https://www.pexels.com/photo/gray-laptop-computer-showing-html-codes-in-shallow-focus-photography-160107/  -->
+
+    <div class="main">
+      <div class="example">
+      <a href="web/web.html" target="_blank">
+                <br><img src="image/webb.jpg" alt="image of web section" height="200" width="300">
+                <div class="content">
+                    <div class="text">
+                        تراعي هذه الدورات الأساليب والممارسات المُتبعة في تطوير تطبيقات الويب الحديثة، فتجمع بين الجانبين العلمي والعملي من المهارات التي لاغنى عنها في الوقت الحالي
+                    </div></div>
+            </a> <p>دورات الويب</p></div>
+
+      <div class="example">
+            <a href="datas/ds.html" target="_blank">
+                <br><img src="image/pi.jpg" alt="image of dataS section" height="200" width="300"><div class="content">
+                    <div class="text">
+                        هي دورات تتناول مواضيع منها تحليل البيانات وعلم البيانات وتطبيقات في تعليم الآله ويقوم بنظريات عده في علوم الحاسب
+                    </div></div>
+            </a><p>دورات علم البيانات</p></div>
+
+      <div class="example">
+            <a href="office/office.html" target="_blank">
+                <br><img src="image/off.jpg" alt="image of office section" height="200" width="300"> <div class="content">
+                    <div class="text"> تهدف هذه الدورات الى التعرف على اهم برامح الاوفيس وتمكنهم من انشاء مستندات وعروض تقديميه وغيرها بشكل احترافي  </div>
+                </div>
+            </a><p>دورات الاوفيس</p></div>
+
+      <div class="example">
+            <a href="program/programing.html" target="_blank">
+                <br><img src="image/prg.jpg" alt="image of program section " height="200" width="300"><div class="content">
+                    <div class="text">تقوم هذه الدورات على تعليم البرمجه بمستويات مختلفه التي تضم الكثير من المعارف والتقنيات ولغات البرمجه المختلفه</div>
+                </div>
+            </a><p>دورات البرمجه</p></div>
+    </div>
+
+
+    <!--footer https://onaircode.com/html-css-footer-design-examples/-->
+
+    <footer class="footer">
+            <ul class="footer__nav">
+            <li class="nav__item nav__item--extra">
+                <h2 class="nav__title">أخبر صديقك عن موقعنا </h2>
+                <table>
+                <tr>
+                <td>
+                <form name="eMailer" style="border-style:none;">
+                      <input type="text" name="email" value="اكتب البريد الالكتروني"
+                                       onFocus="this.value=''"
+                                       onMouseOver="window.status='Enter email address here and tell a friend about this site...'; return true"
+                                       onMouseOut="window.status='';return true">
+                      <input type="button" value="ارســـال"
+                                       onMouseOver="window.status='Click to send an email (with this page address) to a friend! Enter email address above...';
+                return true"
+                                       onMouseOut="window.status='';return true" onClick="mailThisUrl();">
+                </form></td></tr></table></li>
+
+
+            <li class="nav__item">
+                <h2 class="nav__title">تواصل معنا</h2>
+                <ul class="nav__ul">
+                <li>
+                        <a class="footer__btn" href="mailto:edhad.almarefah@gmail.com">Email</a>
+                </li></ul></li>
+
+            <li class="nav__item nav__item--extra">
+                <h2 class="nav__title">من نحن</h2>
+                <ul class="nav__ul">
+                    <li>
+                        <a class="footer__btn" href="pages/who.html">عن موقعنا</a>
+                      </li></ul></li></ul>
+                </footer>
+
+            <script>
+            // www.elahmad.com
+              var message="أضواء المعرفة"     //specifys the title
+              var message=message+"          "
+              i="0"
+              var temptitle=""
+              var speed="150"        
+
+              function titler(){
+              if (!document.all&&!document.getElementById)
+              return
+              document.title=temptitle+message.charAt(i)
+              temptitle=temptitle+message.charAt(i)
+              i++
+              if(i==message.length)
+              {
+              i="0"
+              temptitle=""
+              }
+              setTimeout("titler()",speed)
+              }
+
+              window.onload=titler
+              </script>
+</body>
+</html>
